@@ -7,7 +7,7 @@ Developed an environmental monitor that reads a dht11 sensor and displays the da
 * **Main Controller:** STM32F401RE
 * **Sensors:** dht11, ky-040
 * **Power:** 3S LiPo Battery with 5V Buck Regulator
-* **:** 
+* **Fan:** 30 mm Fan 3.3V DC 
 
 ### Software & Dependencies
 * **OS:** Ubuntu 22.04 LTS
@@ -17,4 +17,16 @@ Developed an environmental monitor that reads a dht11 sensor and displays the da
 ---
 
 ## 🔌 Wiring & Architecture
+
+### Wiring Diagram
+<img width="810" height="567" alt="image" src="https://github.com/user-attachments/assets/a3857110-5ad5-4db3-ae70-6a9776e8fc15" />
+
+### Pin Mapping Table
+
+| Peripheral Device | Device Pin | Host Board | Host Pin |
+| :--- | :--- | :--- | :--- |
+| Left Motor Encoder | OUT A | ESP32 | GPIO 34 |
+| MPU6050 IMU | SDA | ESP32 | GPIO 21 |
+
+
 
