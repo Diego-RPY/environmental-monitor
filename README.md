@@ -1,19 +1,19 @@
 # Project Name: Environmental Monitor
 Developed an environmental monitor that reads a DHT11 sensor and displays the data on an lcd screen. Based on sensor's readings the system choses to activate the fans and decides whether to activate dehumidification, and enter either cooling mode, or stationary mode. I am currently developing the modular technology to deploy the device for different applications.
 
-## 🏗️ Firmware Architecture
+## Firmware Architecture
 <img width="792" height="827" alt="image" src="https://github.com/user-attachments/assets/9f7aed65-95d0-4af9-9eff-564ad5cd0369" />
 
 ---
 
-## 🔌 Hardware Architecture
+## Hardware Architecture
 WARNING: Make sure all the components are tied to the STM32 ground.
 
 <img width="810" height="567" alt="image" src="https://github.com/user-attachments/assets/a3857110-5ad5-4db3-ae70-6a9776e8fc15" />
 
 ---
 
-## 🛠️ System Specifications
+## System Specifications
 
 ### Hardware
 * **Main Controller:** STM32F401RE
@@ -28,7 +28,7 @@ WARNING: Make sure all the components are tied to the STM32 ground.
 
 ---
 
-## 🚀 Usage & Bringup
+## Usage & Bringup
 
 ### Prerequisites
 * Arduino IDE
