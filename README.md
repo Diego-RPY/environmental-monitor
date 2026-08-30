@@ -47,5 +47,7 @@ Note: This project leverages ARM Assembly (.S) for low-level performance.
 4. Select your exact board type and COM Port from the **Tools** menu.
 5. Click the **Upload** arrow button in the top toolbar.
 
+NOTE: In the docs folder the flowchart for all parts of the firmware is found, and in the electronics folder all the datasheets of the components used in the project are included. Both of these are pdfs and cannot be seen on github, in order to see them you will need to download them.
+
 
 
